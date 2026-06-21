@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Basic HTML Form</title>
+</head>
+<body>
+
+    <h1>Basic HTML Form</h1>
+
+    <form>
+        <fieldset>
+            <legend>Name</legend>
+            
+            <label for="first-name">First Name</label><br>
+            <input type="text" id="first-name" name="firstname"><br><br>
+            
+            <label for="last-name">Last Name</label><br>
+            <input type="text" id="last-name" name="lastname">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Other Questions</legend>
+
+            <p>Choose a drink:</p>
+            <input type="radio" id="coffee" name="drink" value="coffee">
+            <label for="coffee">coffee</label><br>
+              
+            <input type="radio" id="tea" name="drink" value="tea" checked>
+            <label for="tea">tea</label><br>
+            
+            <input type="radio" id="hot chocolate" name="drink" value="hot chocolate">
+            <label for="hot-chocolate">hot chocolate</label>
+
+            <p>What ice cream do you like?</p>
+            <input type="checkbox" id="chocolate" name="ice cream" value="chocolate">
+            <label for="chocolate">Chocolate</label><br>
+                                                                                            
+            <input type="checkbox" id="pudding" name="ice cream" value="chocolate pudding">
+            <label for="pudding">Chocolate Pudding</label><br>
+            
+            <input type="checkbox" id="peanut butter" name="ice cream" value="chocolate peanut butter" >
+            <label for="peanut butter">Chocolate Peanut Butter</label><br>
+            
+            <input type="checkbox" id="vanilla" name="ice cream" value="vanilla" checked>           
+                <label for="vanilla">Vanilla</label><br>
+            
+            <input type="checkbox" id="strawberry" name="ice cream" value="strawberry">
+            <label for="strawberry">Strawberry</label>
+
+            <p><label for="school">Select a school:</label></p>
+            <select id="school" name="school">
+                <option value="harvard">Harvard</option>
+                <option value="stanford">Stanford</option>
+                <option value="mit">MIT</option>
+            </select>
+
+            <p><label for="comments">Please provide comments:</label></p>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
